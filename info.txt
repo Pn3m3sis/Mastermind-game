@@ -1,0 +1,13 @@
+Name: 		Mastermind.py
+Description: 	Number guessing game where you try to guess a randomly generated 
+		5 cipher number in the shortest amount of tries.
+Prerequesits:	Python
+Output:		If your attempt is saved and no scoreboard exists it will generate a 
+		scoreboard in a file called scoreboard.txt to save scores locally.
+
+Use:		The game will generate a pseudo random 5 cipher number and you will
+		try to guess it in the shortest amount of tries. After an attempt
+		you will see the amount of "hits" (Number is correct and in the
+		right place), and how many "matches" (Number is correct, but in the
+		wrong place). The game is won when you have all numbers in the right
+		place.
